@@ -606,8 +606,8 @@
 <!-- LOCAL: You can save these files to your site and update links -->
     
         
-        <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-        <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+        <link rel="stylesheet" href="https://aimingoo.github.io/gitmint/style/default.css">
+        <script src="https://aimingoo.github.io/gitmint/dist/gitmint.browser.js"></script>
     
 <!-- END LOCAL -->
 
@@ -616,17 +616,19 @@
     
       <script type="text/javascript">
       function renderGitment(){
-        var gitment = new Gitment({
-            id: page.date, 
+        var gitment = new Gitmint({
+            id: '1574927855000', 
             owner: 'txbo23',
             repo: 'txbo-gitment',
+            
+            lang: "" || navigator.language || navigator.systemLanguage || navigator.userLanguage,
             
             oauth: {
             
             
-                client_secret: 'b1e7008d7eba9451e5d67025ce75a5fe945095ea',
+                client_secret: '475461562a95ebba01791154c1123b0d9ab5d303',
             
-                client_id: 'a5ea68a40eca6aff93d0'
+                client_id: 'e6b6a4606a1f598fde19'
             }});
         gitment.render('gitment-container');
       }
